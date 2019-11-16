@@ -1,6 +1,7 @@
 import requests
 
 from pages.quotes_page import QuotesPage
+from config.quote_config import QuoteConfig
 
 
 class QuoteManager:
@@ -8,7 +9,7 @@ class QuoteManager:
     manager
     """
 
-    def __init__(self, total_page):
+    def __init__(self, total_page=(QuoteConfig.TOTAL_PAGE+1)):
         self.quote_items = []
         self.page_list = []
         self.total_page = total_page
@@ -16,7 +17,7 @@ class QuoteManager:
 
     def _scrap(self):
         for i in range(1, self.total_page, 1):
-            page_content = requests.get(f'http://quotes.toscrape.com/page/{i}').content
+            page_content = requests.get(f'{QuoteConfig.BASE_URL}/page/{i}').content
             self.page_list.append(page_content)
 
     @property
