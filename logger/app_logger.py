@@ -16,6 +16,6 @@ class ApplicationLogger:
     """
 
     @staticmethod
-    def info(context, message):
+    def inject(context):
         logging.getLogger(context)
-        logging.info(message)
+        return logging

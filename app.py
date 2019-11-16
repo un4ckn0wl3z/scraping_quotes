@@ -2,7 +2,7 @@ from manager.quote_manager import QuoteManager
 from logger.app_logger import ApplicationLogger
 
 
-ApplicationLogger.info(__name__, 'Application starting...')
+ApplicationLogger.inject(__name__).info('Application starting...')
 quote_manager = QuoteManager()
 
 
