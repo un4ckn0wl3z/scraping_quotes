@@ -25,4 +25,4 @@ class QuoteParser:
     @property
     def tags(self):
         locator = QuoteLocators.TAGS
-        return [e.string for e in self.parent.select_one(locator)]
+        return [e.string for e in self.parent.select(locator)]
