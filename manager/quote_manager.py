@@ -2,6 +2,7 @@ import requests
 
 from pages.quotes_page import QuotesPage
 from config.quote_config import QuoteConfig
+from logger.app_logger import ApplicationLogger
 
 
 class QuoteManager:
@@ -17,7 +18,9 @@ class QuoteManager:
 
     def _scrap(self):
         for i in range(1, self.total_page, 1):
-            page_content = requests.get(f'{QuoteConfig.BASE_URL}/page/{i}').content
+            url = f'{QuoteConfig.BASE_URL}/page/{i}'
+            ApplicationLogger.info(__name__, f'Scraping {url}')
+            page_content = requests.get(url).content
             self.page_list.append(page_content)
 
     @property
