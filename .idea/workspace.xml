@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef8fc7d-7f23-4fd9-ac79-208fa26120cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/parsers/quote.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/quote.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quotes_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quotes_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
   <component name="ProjectId" id="1ThhpZmA0gxVtkwEMVwLvufWCft" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573920537964</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete QuoteParser">
+      <created>1573920907897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573920907897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +114,7 @@
     <MESSAGE value="init quote page locator" />
     <MESSAGE value="add quote locators" />
     <MESSAGE value="add parsing content" />
-    <option name="LAST_COMMIT_MESSAGE" value="add parsing content" />
+    <MESSAGE value="complete QuoteParser" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete QuoteParser" />
   </component>
 </project>
