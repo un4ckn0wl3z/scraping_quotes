@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef8fc7d-7f23-4fd9-ac79-208fa26120cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/logs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logger/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/log_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/log_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/quote_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/quote_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/logs.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logger/app_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger/app_logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/quote_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/quote_manager.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
