@@ -1,12 +1,10 @@
-import requests
+from selenium import webdriver
 
 from pages.quotes_page import QuotesPage
+chrome = webdriver.Chrome(executable_path="./chromedriver.exe")
+chrome.get("http://quotes.toscrape.com/")
+page = QuotesPage(chrome)
 
-page_content = requests.get('http://quotes.toscrape.com/').content
-page = QuotesPage(page_content)
-print('-' * 50)
 for quote in page.quotes:
-    print(quote.content)
-    print(quote.author)
-    print(quote.tags)
-    print('-' * 50)
+    print(quote)
+
